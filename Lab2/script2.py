@@ -4,7 +4,9 @@ import csv
 import logging
 from typing import List
 
+
 logging.basicConfig(filename='annotation2.log', level=logging.INFO)
+
 
 def get_paths2(name: str) -> tuple[list[str], list[str]]:
     """

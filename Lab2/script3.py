@@ -4,7 +4,9 @@ import csv
 import random
 import logging
 
+
 logging.basicConfig(filename='annotation3.log', level=logging.INFO)
+
 
 def main() -> None:
     dataset_dir = 'dataset3'

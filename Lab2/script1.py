@@ -3,7 +3,9 @@ import csv
 from pathlib import Path
 import logging
 
+
 logging.basicConfig(filename='annotation.log', level=logging.INFO)
+
 
 def get_paths(name: str) -> tuple[list[Path], list[Path]]:
     """
